@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang = "en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>DentistEgy Registeration</title>
+        <link href="dentist.css" rel=stylesheet type=text/css>
+    </head>
+    
+        
+    <body>
+        <div id="wrapper">
+        <h1><a id= "logo" href="index.html">DentistEgy<img src=toothlogo.png alt="toothlogo" height=40 width=40></a></h1>
+        <nav>   
+            <div id="nav2">
+            <ul>
+                <li><a href="index.html">Home &nbsp;</a></li>
+                <li><a href="registeration.html">Register &nbsp;</a></li>
+                <li><a href="contactus.html">Contact&nbsp;us &nbsp;</a></li>
+            </ul>
+            </div>
+        </nav>
+        
+        <div id="content">
+            
+            <h2>Register Today:</h2>
+            *You must register first in order to reserve an appointment with one of our doctors.*<br><br>
+           <strong> Please fill in the required information in the following form: <br> </strong>
+            
+            <form id="form1">
+                <div>
+                    <label>First Name</label> 
+                    <input type="text" name="myFName">
+                </div>
+                    
+                <div>
+                    <label>Last Name</label>
+                    <input type="text" name="myLName">
+                </div>
+                
+                <div>
+                    <label>Phone No.</label>
+                    <input type= "tel" name="myPhone" maxlength="12">
+                </div>
+                
+                <div>
+                    <label>Address</label>
+                    <input type="text">
+                </div>
+                
+                <div>
+                    <label>E-mail</label>
+                    <input type="email">
+                </div>
+                <div>
+                    <label>Brief Medical History</label>
+                    <textarea id="Comments" rows="4" cols="60" name="myComments"></textarea>
+                </div>
+                
+                <div id="confirmbutton">
+                   <input type="submit" value="Submit" onclick="welcome()">
+                </div>
+                
+                <p id="message"></p>
+            </form>
+            <script>
+                var form = document.getElementById('form1');
+                form.onsubmit = function(e) {
+                    e.preventDefault();
+                    var result = alert('Hello ' +form.myFName.value + '. Welcome to DentistEgy!');
+                    form.reset();
+                }
+        
+            </script>
+             
+            
+            
+        </div>
+    </div>
+    </body>
+</html>

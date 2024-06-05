@@ -1,0 +1,245 @@
+body
+{
+    background-image:url(backgroundbody.jpg);
+}
+p
+{
+    font-size: 20px;
+   
+}
+#nav 
+{
+    float:left;
+    background-color:#73649c;
+    padding:20px 5px 5px 70px;
+    font-weight: bolder;
+    font-size: 24px;
+    width:150px;
+    height:inherit;
+    height:635px;
+    float: left;
+    
+}
+#nav2
+{
+    float:left;
+    background-color:#73649c;
+    padding:20px 5px 5px 70px;
+    font-weight: bolder;
+    font-size: 24px;
+    width:150px;
+    height:inherit;
+    height:457px;
+    float: left;
+    
+}
+#nav3
+{
+    float:left;
+    background-color:#73649c;
+    padding:20px 5px 5px 70px;
+    font-weight: bolder;
+    font-size: 24px;
+    width:150px;
+    height:inherit;
+    height:368px;
+    float: left;
+    
+}
+nav
+{
+    background-color:#73649c;
+}
+a#logo
+{
+    text-decoration: none;
+    color:aliceblue;
+}
+a:visited#logo
+{
+    color:aliceblue;
+}
+#wrapper
+{
+    background-color: #90C7E3;
+    margin-left: auto;
+    margin-right:auto;
+    width: 95%;
+    box-shadow: 11px 11px 51px #73649c;
+}
+#nav a 
+{
+    text-decoration:none;
+    color:darkblue;
+}
+
+#nav a:hover
+{
+    color:white;
+    
+}
+
+#nav a:visited
+{
+    color:darkslateblue;
+}
+#nav a:link
+{
+    color:darkslateblue;
+}
+#nav ul
+{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    
+}
+#nav li
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+#nav2 a 
+{
+    text-decoration:none;
+    color:darkblue;
+}
+
+#nav2 a:hover
+{
+    color:black;
+    
+}
+
+#nav2 a:visited
+{
+    color:darkslateblue;
+}
+#nav2 ul
+{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    
+}
+#nav2 li
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+
+#nav3 a 
+{
+    text-decoration:none;
+    color:darkblue;
+}
+
+#nav3 a:hover
+{
+    color:black;
+    
+}
+
+#nav3 a:visited
+{
+    color:darkslateblue;
+}
+#nav3 ul
+{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    
+}
+#nav3 li
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+h1
+{
+    background-image:url(images.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+    padding: 20px;
+    color:aliceblue;
+}
+#content
+{
+    background-color:white;
+    padding-top: 10px;
+    padding-left: 250px;
+}
+table
+{
+    width: 95%;
+    text-align: center;
+
+}
+td
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+ul#contactus
+{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style-type:square;
+}
+ul#contactus li
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ul#contactus a
+{
+    text-decoration: none;
+}
+a#facebook
+{
+    color:#3B5998;
+}
+a#instagram
+{
+    color:#DD2A7B;
+}
+a#twitter
+{
+    color:#00ACEE;
+}
+label
+{
+    float:left;
+    width:100px;
+    text-align:right;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+input
+{
+    margin-top: 20px;
+    width: 250px;
+}
+#confirmbutton 
+{
+    margin-left:110px;
+    padding-bottom:10px;
+}
+#confirmbutton input
+{
+    width: 100px;
+}
+textarea 
+{
+    margin-top: 20px;
+}
+a
+{
+    text-decoration: none;
+}
